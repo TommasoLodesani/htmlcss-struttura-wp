@@ -53,21 +53,25 @@ section .titolo-h2{
 
 }
 
-.col-sx, .col-dx{
-    width: 20%;
+.row .float{
     float: left;
-    
+}
+
+
+.col-side{
+    width: 20%;
+   
     /* debug */
     height: 300px;
     background-color: lightseagreen;
 }
 
+
 .col-cen{
     width: 56%;
     margin-left: 2%;
     margin-right: 2%;
-    float: left;
-
+   
     /* debug */
     height: 300px;
     background-color: blueviolet;
